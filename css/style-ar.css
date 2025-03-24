@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap");
+
+:root {
+    --default-font: "Tajawal", sans-serif;
+    --accent-font: "Tajawal", sans-serif;
+}
+
+* {
+    font-family: "Tajawal", sans-serif;
+}
+
+.section-title h3 {
+    letter-spacing: initial;
+}
+
+.scrolling-ticker-box {
+    direction: rtl;
+}
+
+.scrolling-content span img {
+    margin-left: 40px;
+    margin-right: 0;
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(calc(100% + var(--gap)));
+    }
+}
+.section-title h3 {
+    padding-right: 25px;
+    padding-left: 0;
+}
+.section-title h3::before {
+    left: initial;
+    right: 0;
+}
+.about-us-item .icon-box {
+    margin-right: initial;
+    margin-left: 30px;
+}
+.about-us-content-list ul li {
+    padding-left: 0;
+    padding-right: 25px;
+}
+.about-us-content-list ul li::before {
+    left: initial;
+    right: 0;
+}
+.about-us-images {
+    padding-right: 0;
+    margin-right: 0;
+    padding-left: 30px;
+    margin-left: 20px;
+    background-position: top 45px left;
+}
+.our-service-nav ul li {
+    padding-right: 0;
+    padding-left: 50px;
+}
+.project-content {
+    text-align: right;
+}
+.project-tag {
+    right: 25px;
+    left: initial;
+}
+.how-work-step-box {
+    margin-left: initial;
+    margin-right: 30px;
+}
+.how-work-step-no {
+    margin-right: 0;
+    margin-left: 15px;
+}
+.work-benefit-item .icon-box {
+    margin-right: initial;
+    margin-left: 15px;
+}
+.why-choose-item .icon-box {
+    margin-left: 30px;
+    margin-right: initial;
+}
+.why-choose-list ul li img {
+    margin-right: initial;
+    margin-left: 10px;
+}
+.testimonial-slider {
+    left: 0;
+    right: initial;
+}
+.testimonial-btn {
+    right: initial;
+    left: 0;
+}
+.testimonial-body .author-image {
+    margin-left: 15px;
+    margin-right: initial;
+}
+.footer-contact-item .icon-box {
+    margin-left: 20px;
+    margin-right: initial;
+}
+.footer-links {
+    padding-right: 15px;
+    margin-right: 15px;
+    padding-left: 15px;
+    margin-left: 15px;
+}
+.footer-social-links ul li {
+    margin-left: 15px;
+    margin-right: initial;
+}
+.footer-links::before {
+    right: initial;
+    left: 0;
+}
+.faq-accordion .accordion-item .accordion-button::after,
+.faq-accordion .accordion-item .accordion-button.collapsed::after {
+    left: 20px;
+    right: initial;
+}
+.faq-accordion .accordion-item .accordion-body {
+    padding-left: 35px;
+    padding-right: initial;
+}
+.faq-accordion .accordion-header .accordion-button {
+    padding-left: 35px;
+    padding-right: initial;
+}
+.post-item-meta ul li {
+    margin-right: initial;
+    margin-left: 24px;
+}
+.post-item-meta ul li:before {
+    left: 0;
+    right: initial;
+    transform: translate(-18px, -50%);
+    -webkit-transform: translate(-18px, -50%);
+    -moz-transform: translate(-18px, -50%);
+    -ms-transform: translate(-18px, -50%);
+    -o-transform: translate(-18px, -50%);
+}
+.main-menu .nav-menu-wrapper {
+    margin-right: 40px;
+    margin-left:initial;
+}
+.testimonial-btn {
+    flex-direction: row-reverse;
+}
+@media only screen and (max-width: 991px) {
+    .how-work-step-box {
+        margin-right: 0px;
+    }
+    .work-benefit-item .icon-box {
+        margin-left: 10px;
+    }
+    .footer-contact-item .icon-box {
+        margin-left: 10px;
+    }
+    .faq-accordion .accordion-item .accordion-body {
+        padding-left: 30px;
+    }
+    .about-us-images {
+        margin: 0;
+        padding: 0;
+        max-width: 100%;
+    }
+    .footer-links {
+        padding: 0;
+        margin: 30px 0;
+    }
+    .footer-links::before {
+        display: none;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .hero-btn .btn-default {
+        margin-right: 50px;
+    }
+    .why-choose-item .icon-box {
+        margin-left: 15px;
+    }
+}
