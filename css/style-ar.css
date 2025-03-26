@@ -146,10 +146,15 @@
 }
 .main-menu .nav-menu-wrapper {
     margin-right: 40px;
-    margin-left:initial;
+    margin-left: initial;
 }
 .testimonial-btn {
     flex-direction: row-reverse;
+}
+.work-progress .each-item {
+    float: right;
+    margin-left: 70px;
+    margin-right: initial;
 }
 @media only screen and (max-width: 991px) {
     .how-work-step-box {
@@ -183,5 +188,9 @@
     }
     .why-choose-item .icon-box {
         margin-left: 15px;
+    }
+    .work-progress .each-item {
+        margin-right: initial;
+        margin-left: 10px;
     }
 }
