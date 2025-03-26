@@ -156,6 +156,10 @@
     margin-left: 70px;
     margin-right: initial;
 }
+.testimonial-author-img {
+    margin-right: initial;
+    margin-left: 15px;
+}
 @media only screen and (max-width: 991px) {
     .how-work-step-box {
         margin-right: 0px;

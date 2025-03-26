@@ -4128,7 +4128,7 @@ body:has(.offcanvas) {
 }
 
 .testimonial-box {
-	width: calc(50% - 15px);
+	width: calc(33.33% - 20px);
 	border: 1px solid var(--divider-color);
 	padding: 40px;
 }
@@ -4137,13 +4137,13 @@ body:has(.offcanvas) {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 30px;
-	align-items: center;
+	justify-content: space-between;
 	margin-bottom: 40px;
 }
 
 .testimonial-author {
 	display: flex;
-	width: calc(70% - 15px);
+	justify-content: space-between;
 }
 
 .testimonial-author-img {
@@ -4176,7 +4176,6 @@ body:has(.offcanvas) {
 }
 
 .testimonial-author-rating {
-	width: calc(30% - 15px);
 	text-align: end;
 }
 
