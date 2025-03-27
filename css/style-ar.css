@@ -130,6 +130,7 @@
 .faq-accordion .accordion-header .accordion-button {
     padding-left: 35px;
     padding-right: initial;
+    text-align: right;
 }
 .post-item-meta ul li {
     margin-right: initial;
@@ -160,6 +161,19 @@
     margin-right: initial;
     margin-left: 15px;
 }
+.our-features-images {
+    margin-left: 20px;
+    margin-right: initial;
+}
+.tabbed-about-us-v2.tabbed-about-us .tabs-nav li {
+    float: right;
+}
+.tabbed-about-us-v2.tabbed-about-us .tabs-nav li > a {
+    font-size: initial;
+}
+.cta-box .section-title p {
+	max-width: 600px;
+}
 @media only screen and (max-width: 991px) {
     .how-work-step-box {
         margin-right: 0px;
@@ -184,6 +198,9 @@
     }
     .footer-links::before {
         display: none;
+    }
+    .our-features-images {
+        margin-left: 0;
     }
 }
 @media only screen and (max-width: 767px) {
