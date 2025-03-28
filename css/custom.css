@@ -1849,7 +1849,7 @@ body:has(.offcanvas) {
 }
 
 .work-benefits-item-content h3 {
-	font-size: 20px;
+	font-size: 24px;
 }
 
 /************************************/
@@ -4760,10 +4760,6 @@ body:has(.offcanvas) {
 		width: calc(100% - 55px);
 	}
 
-	.work-benefits-item-content h3 {
-		font-size: 18px;
-	}
-
 	.our-testimonial {
 		padding: 50px 0;
 	}
@@ -5644,7 +5640,7 @@ body:has(.offcanvas) {
 	}
 
 	.work-benefit-item .icon-box img {
-		max-width: 34px;
+		max-width: 45px;
 	}
 
 	.work-benefits-item-content {
@@ -5652,7 +5648,7 @@ body:has(.offcanvas) {
 	}
 
 	.work-benefits-item-content h3 {
-		font-size: 14px;
+		font-size: 20px;
 	}
 
 	.our-testimonial-image {
